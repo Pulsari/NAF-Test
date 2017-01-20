@@ -1,0 +1,395 @@
+header .container {
+  padding-right: 8px;
+}
+header .navbar {
+  min-height: 68px;
+}
+header .navbar .nav > li > a {
+  color: #000;
+  text-shadow: none;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 20px;
+}
+header .navbar .nav > li > a:hover {
+  color: #006993;
+}
+header .navbar-nav > li {
+  padding: 20px 0px;
+  text-transform: uppercase;
+}
+header .navbar-nav > li:hover {
+  background-color: #D7E8EF;
+}
+header .navbar-nav > li:nth-child(5) a {
+  border-left: 1px solid #000;
+}
+header .navbar-nav > li.join-us {
+  background-color: #E64A00;
+  width: 154px;
+  height: 52px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 8px;
+}
+header .navbar-nav > li.join-us:hover {
+  background-color: #e58f67;
+}
+header .navbar-nav > li.join-us a {
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+header .navbar-nav > li.join-us a:hover {
+  color: white;
+}
+header .navbar-nav > li.active {
+  background-color: #D7E8EF;
+  color: #006993;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+header .navbar-brand {
+  margin-top: 0;
+  padding: 0 0 0 15px;
+}
+header .navbar-default .navbar-nav > .active > a {
+  color: #006993;
+  margin: 0;
+}
+section.callaction {
+  background-color: #FFF;
+  padding: 0;
+}
+section.callaction .cta-bg {
+  background: #000000 url(../img/hero_headerImage.jpg) center center no-repeat;
+  height: 454px;
+}
+section.callaction h1 {
+  color: white;
+  font-size: 47px;
+  padding-top: 100px;
+  margin-bottom: 8px;
+}
+section.callaction p {
+  color: white;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 21px;
+  margin-bottom: 60px;
+}
+section.callaction .cta-buttons {
+  width: 404px;
+  margin: 0 auto;
+}
+section.callaction .cta-buttons li {
+  display: inline;
+  color: #E64A00;
+  padding: 16px 0;
+}
+section.callaction .cta-buttons li.cta-join-us {
+  background-color: #E64A00;
+  width: 154px;
+  height: 39px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4px;
+}
+section.callaction .cta-buttons li.cta-join-us:hover {
+  background-color: #e58f67;
+}
+section.callaction .cta-buttons li.cta-join-us a {
+  display: inline-block;
+  color: white;
+  width: 154px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+section.callaction .cta-buttons li.cta-join-us a:hover {
+  color: white;
+  text-decoration: none;
+}
+section.callaction .cta-buttons li.cta-learn-more {
+  border: 2px solid #E64A00;
+  width: 154px;
+  height: 43px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4px;
+  padding: 14px 0;
+}
+section.callaction .cta-buttons li.cta-learn-more:hover {
+  border: 2px solid #E64A00;
+}
+section.callaction .cta-buttons li.cta-learn-more a {
+  display: inline-block;
+  color: #E64A00;
+  width: 195px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+section.callaction .cta-buttons li.cta-learn-more a:hover {
+  color: white;
+  text-decoration: none;
+}
+section.callaction .row {
+  margin-bottom: 0;
+}
+.glyphicon-play:before {
+  content: "\e072";
+  margin-left: 4px;
+}
+#content {
+  height: 325px;
+  padding-top: 0;
+}
+#content .row {
+  margin-bottom: 0;
+}
+#content .gradient {
+  background: #DDDDDD;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #DDDDDD 1%, #DDDDDD 50%, #ffffff 50%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #DDDDDD 1%, #DDDDDD 50%, #ffffff 50%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #DDDDDD 1%, #DDDDDD 50%, #ffffff 50%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@med-grey', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
+  padding-top: 88px;
+  height: 325px;
+}
+#content .blurb1,
+#content .blurb2,
+#content .blurb3 {
+  background-color: #F3F3F5;
+  height: 150px;
+  margin: 2px;
+  width: 32%;
+  color: #302D2E;
+  float: left;
+  padding: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+}
+#content .blurb1 span,
+#content .blurb2 span,
+#content .blurb3 span {
+  color: #006993;
+  font-weight: 800;
+}
+#content .blurb1 {
+  padding: 20px 28px;
+}
+#content .blurb2 {
+  padding: 20px 22px;
+}
+#content .blurb3 {
+  padding: 20px 50px;
+}
+#leadership .col-lg-12 {
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+#leadership .container > .row {
+  margin-bottom: 0;
+}
+#leadership .headshot {
+  background-color: #F3F3F5;
+  height: 195px;
+  margin: 3px;
+  width: 32%;
+  color: #302D2E;
+  float: left;
+  padding: 25px 18px 0 18px;
+  text-align: center;
+  font-size: 17px;
+  position: relative;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#leadership .headshot span {
+  color: #E64A00;
+  font-weight: 800;
+}
+#leadership .headshot span.pos {
+  color: #302D2E;
+  font-weight: 400;
+}
+#leadership .overlay {
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 100;
+  overflow: hidden;
+  position: absolute;
+  width: 180px;
+  height: 195px;
+  top: 0;
+  left: 0;
+}
+#leadership .leadership-heading {
+  width: 198px;
+  height: 48px;
+  background-color: #006993;
+  color: white;
+  font-size: 22px;
+  padding-top: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 30px auto;
+}
+#leadership .headshot-clip1,
+#leadership .headshot-clip2,
+#leadership .headshot-clip3 {
+  width: 105px;
+  height: 105px;
+  background: #F3F3F5;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  background-size: 105px;
+  margin: 0 auto 10px auto;
+}
+#leadership .headshot-clip1 {
+  background: url(../img/rick-web-s-2016.jpg) center center no-repeat;
+}
+#leadership .headshot-clip2 {
+  background: url(../img/team-leader-patty-arvielo.jpg) center center no-repeat;
+}
+#leadership .headshot-clip3 {
+  background: url(../img/team-leader-christy-bunce.jpg) center center no-repeat;
+}
+#leadership .quote-box {
+  clear: both;
+  background-color: #F3F3F5;
+  max-width: 854px;
+  height: 100px;
+  padding: 28px 48px;
+  margin: 0 auto 85px auto;
+}
+#leadership .quote-box div {
+  float: left;
+  padding-right: 20px;
+}
+#leadership .quote-box .glyphicon-play-circle:before {
+  content: "\e029";
+  color: #E64A00;
+  font-size: 46px;
+}
+#leadership .quote-box p {
+  color: #302D2E;
+  font-size: 19px;
+  font-weight: 500;
+}
+#leadership .quote-box p span {
+  color: #006993;
+}
+#culture {
+  padding: 0;
+}
+#culture .culture-bg {
+  background: #000000 url(../img/cultureBG.jpg) center center no-repeat;
+  height: 790px;
+}
+#culture .culture-heading {
+  width: 256px;
+  height: 48px;
+  background-color: #006993;
+  color: white;
+  font-size: 22px;
+  padding-top: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 120px auto 46px auto;
+}
+#culture .naf360-box h2 {
+  color: #006993;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 44px;
+  line-height: 34px;
+}
+#culture .naf360-box h2 span {
+  font-size: 32px;
+}
+#culture .naf360-box p {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 30px 0;
+  font-weight: 500;
+}
+#culture .check-out-naf {
+  border: 2px solid #E64A00;
+  width: 354px;
+  height: 46px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px auto 0;
+  padding: 11px 0;
+  color: #E64A00;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+#culture .check-out-naf:hover {
+  border: 2px solid #E64A00;
+  background-color: #E64A00;
+  text-decoration: none;
+}
+#culture .check-out-naf:hover,
+#culture .check-out-naf a {
+  color: #E64A00;
+  text-decoration: none;
+}
+#culture .check-out-naf:hover a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background: white;
+  color: #8b909b;
+  padding: 0;
+}
+footer a {
+  color: #E64A00;
+  font-weight: 600;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #e58f67;
+}
+footer .join-us {
+  float: right;
+  background-color: #E64A00;
+  width: 354px;
+  height: 52px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 8px;
+  padding-top: 15px;
+}
+footer .join-us:hover {
+  background-color: #e58f67;
+}
+footer .join-us a {
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  text-decoration: none;
+}
+footer .join-us a:hover {
+  color: white;
+}
+footer .copyright {
+  line-height: 15px;
+}
+
+/*# sourceMappingURL=bentley.css.map */

@@ -1,0 +1,403 @@
+@lt-blue: #D7E8EF;
+@dk-blue: #006993;
+@orange: #E64A00;
+@lt-orange: #e58f67;
+@dk-grey: #302D2E;
+@med-grey: #DDDDDD;
+@lt-grey: #F3F3F5;
+@footer-grey: #8b909b;
+
+
+header {
+	.container { padding-right: 8px; }
+	.navbar {
+    min-height: 68px;
+    	.nav > li > a {
+    		color: #000;
+    		text-shadow: none;
+    		font-weight: 500;
+    		font-size: 14px;
+    		margin: 0;
+    		padding: 0 20px;
+    		&:hover {
+    			color: @dk-blue;
+    		}
+    	}
+	}
+    .navbar-nav {
+    	&> li {
+    	padding: 20px 0px;
+		text-transform: uppercase;
+			&:hover {
+				background-color: @lt-blue;
+			}
+			&:nth-child(5) a {
+				border-left: 1px solid #000;
+			}
+			&.join-us {
+				background-color: @orange;
+				width: 154px;
+				height: 52px;
+				text-transform: uppercase;
+				text-align: center;
+				margin: 8px;
+				&:hover {
+					background-color: @lt-orange;
+				}
+				a {
+					color: white;
+					font-size: 19px;
+					font-weight: 600;
+					margin-top: -10px;
+					&:hover {
+						color: white;
+					}
+				}
+			}
+    	}
+    	&> li.active {
+			background-color: @lt-blue;
+			color: @dk-blue;
+			font-weight: 700;
+			text-transform: uppercase;
+    		padding: 20px 0px;
+    	}
+    }
+	.navbar-brand {
+	    margin-top: 0;
+	    padding: 0 0 0 15px;
+	}
+	.navbar-default .navbar-nav > .active > a {
+		color: @dk-blue;
+		margin: 0;
+	}
+}
+
+
+section.callaction {
+	background-color: #FFF;
+    padding: 0; 
+	.cta-bg {
+		background: #000000 url(../img/hero_headerImage.jpg) center center no-repeat;
+		height: 454px;
+	}
+	h1 {
+		color: white;
+		font-size: 47px;
+		padding-top: 100px;
+		margin-bottom: 8px;
+	}
+	p {
+	    color: white;
+	    width: 400px;
+	    margin: 0 auto;
+	    font-size: 21px;
+	    margin-bottom: 60px;
+	}
+	.cta-buttons {
+		width: 404px;
+		margin: 0 auto;
+		li {
+			display: inline;
+			color: @orange;
+			padding: 16px 0;
+			&.cta-join-us {
+				background-color: @orange;
+				width: 154px;
+				height: 39px;
+				text-transform: uppercase;
+				text-align: center;
+				margin: 4px;
+				&:hover {
+					background-color: @lt-orange;
+				}
+				a {
+					display: inline-block;
+					color: white;
+					width: 154px;
+					font-size: 19px;
+					font-weight: 600;
+					margin-top: -10px;
+					&:hover {
+						color: white;
+						text-decoration: none;
+					}
+				}
+			}
+			&.cta-learn-more {
+				border: 2px solid @orange;
+				width: 154px;
+				height: 43px;
+				text-transform: uppercase;
+				text-align: center;
+				margin: 4px;
+				padding: 14px 0;
+				&:hover {
+					border: 2px solid @orange;
+				}
+				a {
+					display: inline-block;
+					color: @orange;
+					width: 195px;
+					font-size: 19px;
+					font-weight: 600;
+					margin-top: -10px;
+					&:hover {
+						color: white;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.row {
+		margin-bottom: 0;
+	}
+}
+
+.glyphicon-play:before {
+    content: "\e072";
+    margin-left: 4px;
+}
+
+#content {
+	height: 325px;
+	padding-top: 0;
+	.row {
+		margin-bottom: 0;
+	}
+	.gradient {
+		background: @med-grey; /* Old browsers */
+		background: -moz-linear-gradient(top,  @med-grey 1%, @med-grey 50%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  @med-grey 1%,@med-grey 50%, #ffffff 50%, #ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  @med-grey 1%,@med-grey 50%, #ffffff 50%, #ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@med-grey', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+		padding-top: 88px;
+	height: 325px;
+	}
+	.blurb1, .blurb2, .blurb3 {
+		background-color: @lt-grey;
+		height: 150px;
+		margin: 2px;
+		width: 32%;
+		color: @dk-grey;
+		float:left;
+		padding: 30px;
+		text-align: center;
+		font-weight: 500;
+		font-size: 17px;
+		span {
+			color: @dk-blue;
+			font-weight: 800;
+		}
+	}
+	.blurb1 {
+		padding: 20px 28px
+	}
+	.blurb2 {
+		padding: 20px 22px
+	}
+	.blurb3 {
+		padding: 20px 50px
+	}
+	
+}
+
+#leadership {
+	.col-lg-12 {
+		border-left: 1px solid @med-grey;
+		border-right: 1px solid @med-grey;
+	}
+	.container > .row {
+		margin-bottom: 0;
+	}
+	.headshot {
+		background-color: @lt-grey;
+		height: 195px;
+		margin: 3px;
+		width: 32%;
+		color: @dk-grey;
+		float:left;
+		padding: 25px 18px 0 18px;
+		text-align: center;
+		font-size: 17px;
+		position: relative;
+		font-weight: 800;
+		text-transform: uppercase;
+		span {
+			color: @orange;
+			font-weight: 800;
+		}
+		span.pos {
+			color: @dk-grey;
+			font-weight: 400;
+		}
+	}
+	.overlay {
+		background-color: rgba(255, 255, 255, 0.75);
+		z-index: 100;			
+		overflow: hidden;
+		position: absolute;
+		width: 180px;
+		height: 195px;
+		top: 0;
+		left: 0;
+	}
+	.leadership-heading {
+	    width: 198px;
+	    height: 48px;
+	    background-color: @dk-blue;
+	    color: white;
+	    font-size: 22px;
+	    padding-top: 13px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    margin: 0 auto 30px auto;
+	}
+	.headshot-clip1, .headshot-clip2, .headshot-clip3,  {
+		width: 105px;
+		height: 105px;
+		background: @lt-grey;
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+		background-size: 105px;
+		margin: 0 auto 10px auto;
+	}
+	.headshot-clip1 {
+		background: url(../img/rick-web-s-2016.jpg) center center no-repeat;
+	}
+	.headshot-clip2 {
+		background: url(../img/team-leader-patty-arvielo.jpg) center center no-repeat;
+	}
+	.headshot-clip3 {
+		background: url(../img/team-leader-christy-bunce.jpg) center center no-repeat;
+	}
+	.quote-box {
+		clear:both;
+		background-color: @lt-grey;
+		max-width: 854px;
+		height: 100px;
+		padding: 28px 48px;
+		margin: 0 auto 85px auto;
+		div {
+			float: left;
+			padding-right: 20px;
+		}
+		.glyphicon-play-circle:before {
+		    content: "\e029";
+		    color: @orange;
+		    font-size: 46px;
+		}
+		p { 
+		color: @dk-grey;
+		font-size: 19px;
+		font-weight: 500;
+			span {
+			color: @dk-blue;
+			}
+		}
+	}
+}
+#culture {
+	padding: 0;
+	.culture-bg {
+		background: #000000 url(../img/cultureBG.jpg) center center no-repeat;
+		height: 790px;
+	}
+	.culture-heading {
+	    width: 256px;
+	    height: 48px;
+	    background-color: @dk-blue;
+	    color: white;
+	    font-size: 22px;
+	    padding-top: 13px;
+	    text-align: center;
+	    text-transform: uppercase;
+	    margin: 120px auto 46px auto;
+	}
+	.naf360-box {
+		h2 {
+			color: @dk-blue;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 24px;
+			font-weight: 500;
+			margin-top: 44px;
+			line-height: 34px;
+			span {
+				font-size: 32px;
+			}
+		}
+		p {
+			color: black;
+			font-size: 16px;
+			text-align: center;
+			margin: 20px 30px 0;
+			font-weight: 500;
+		}
+	}
+	.check-out-naf {
+		border: 2px solid @orange;
+		width: 354px;
+		height: 46px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 30px auto 0;
+		padding: 11px 0;
+			color: @orange;
+			font-size: 19px;
+			font-weight: 700;
+			margin-top: 32px;
+		&:hover {
+			border: 2px solid @orange;
+			background-color: @orange;
+			text-decoration: none;
+		}
+		&:hover, a {
+			color: @orange;
+			text-decoration: none;
+		}
+		&:hover a {
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+footer {
+	background: white;
+	color: @footer-grey;
+	padding: 0;
+	a {
+		color: @orange;
+		font-weight: 600;
+		text-decoration: underline;
+		&:hover {
+			color: @lt-orange;
+		}
+	}
+	.join-us {
+		float: right;
+		background-color: @orange;
+		width: 354px;
+		height: 52px;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 8px;
+		padding-top: 15px;
+		&:hover {
+			background-color: @lt-orange;
+		}
+		a {
+			color: white;
+			font-size: 19px;
+			font-weight: 600;
+			text-decoration: none;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+	.copyright {
+		line-height: 15px;
+	}
+}
